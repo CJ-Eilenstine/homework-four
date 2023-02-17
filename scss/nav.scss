@@ -1,0 +1,37 @@
+.nav-holder {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    margin: 0 auto;
+    width: 100%;
+
+
+    nav {
+        margin: auto;
+        width: $site-nav-width;
+        height: $site-nav-height;
+        border-bottom: solid white 2px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        padding-bottom: 22px;
+
+        .logo {
+            width: 92px;
+            height: 42px;
+        }
+
+        .anchor {
+            display: flex;
+            justify-content: space-between;
+            width: 500px;
+
+            a {
+                text-decoration: none;
+                color: $site-white; 
+                font-family: gillmore;  
+                font-size: 15px; 
+            }
+        }
+    }
+}
